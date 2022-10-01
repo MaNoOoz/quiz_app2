@@ -1,0 +1,62 @@
+name: quiz_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+#  data
+  get: 4.6.5
+  get_storage:
+
+  double_back_to_close_app:
+  logger:
+  intl_phone_number_input: ^0.7.0+2
+  flutter_verification_code: ^1.1.5
+  share_plus:
+  lottie:
+  animate_do: ^2.1.0
+  flutter_gradient_colors:
+  auto_size_text:
+  animated_text_kit:
+  circular_countdown_timer:
+  slide_countdown:
+  feather_icons:
+  flutter_spinkit:
+  shared_preferences:
+
+#  network
+  http:
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  fonts:
+    - family: DG Sahabah Bold
+      fonts:
+        - asset: assets/fonts/DG Sahabah Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/DG Sahabah Light.ttf
+          weight: 300
+
+        - asset: assets/fonts/DG Sahabah Reg.ttf
+          weight: 400
+
+
+
+  assets:
+   - assets/images/
+   - assets/fonts/
+   - assets/jsons/
+
